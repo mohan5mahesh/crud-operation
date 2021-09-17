@@ -6,12 +6,14 @@ function App() {
   return (
     <div>
       <AppBar position="static">
-        <Link to="/">Home</Link>
-        <Link to="/users">List Users</Link>
-        <Link to="/create-user">Create User</Link>
-        <Link to="/edit-user/:id">Edit User</Link>
-        <Link to="/profile/:id">profile</Link>
-        <Link to="/edit-profile/:id">edit profile</Link>
+        <div className="navbar">
+          <Link to="/">Home</Link>
+          <Link to="/users">List Users</Link>
+          <Link to="/create-user">Create User</Link>
+          <Link to="/edit-user/:id">Edit User</Link>
+          <Link to="/profile/:id">profile</Link>
+          <Link to="/edit-profile/:id">edit profile</Link>
+        </div>
       </AppBar>
 
       <Switch>
