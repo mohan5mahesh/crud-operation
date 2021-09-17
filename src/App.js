@@ -1,5 +1,5 @@
 import "./App.css";
-import { Switch, Route, Link, useParams, Redirect } from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
 import AppBar from "@material-ui/core/AppBar";
 //nav bar function react router
 function App() {
